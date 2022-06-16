@@ -99,6 +99,14 @@ function swapCheckAnswer() {
 
 function setProblem(id) {
     questionNumber.innerHTML = id + 1;
+        leftArrow.style.visibility = "hidden";
+        rightArrow.style.visibility = "hidden";
+    if (id != 0) {
+        leftArrow.style.visibility = "visible";
+    }
+    if (id != problemList.length - 1) {
+        rightArrow.style.visibility = "visible";
+    }
     problemStatement.innerHTML = problemList[id].statement;
 
     for (let i = 0; i < answers.length; i++) {
