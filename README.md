@@ -9,4 +9,4 @@ Concepts practiced/learned:
 - JS objects, constructors, arrays, DOM navigation (parent nodes, previous child element), click event listeners, resetting a table to initial state by storing innerHTML value, array filter method
 - Switching between states is annoying with all the display none to display block switches
 - I need more practice with CSS layouts
-- For next project, I should look to incorporate async and fetch API
+- For next project, I should look to incorporate async and fetch API, and learn JS testing
